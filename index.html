@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riot Games Project | Music</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="node_modules/boxicons/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <div id="app">
+        <!-- NAV -->
+        <nav>
+            <!-- Menu -->
+            <button class="menuHamburgue"><i class="ri-menu-2-line"></i></button>
+            <ul class="menu">
+                <li class="menu-link">
+                    <a href="#">Inicio</a>
+                </li>
+                <li class="menu-link">
+                    <a href="">Buscar</a>
+                </li>
+                <li class="menu-link">
+                    <a href="">Suas Bíblioteca</a>
+                </li>
+            </ul>
+            <!-- Brand -->
+            <a href="" class="brand">
+                music legends
+            </a>
+            <!-- UserBox -->
+            <a href="" class="userBox">
+                <span>Name User</span>
+                <div class="userImage">
+                    <img src="assets/icons/user.svg" alt="">
+                </div>
+            </a>
+        </nav>
+
+        <!-- Player -->
+        <div id="player">
+            <!-- Detalhe da Musicas -->
+            <div class="detailSong">
+               <a ><img src="assets/icons/heart.svg" alt=""></i></a>
+               <div class="infoSong">
+                <span class="nameSong">Warriors</span>
+                <span class="nameSinger">Riot games ft. Imagine Dragons</span>
+               </div>
+            </div>
+            <!-- Controlador do player -->
+            <div class="controller">
+                <a ><i class='bx bx-repeat'></i></a>
+                <a ><i class='bx bx-chevron-left' ></i></a>
+                <a class="BtnPlay" onclick="alert()"><i class="ri-play-line"></i></a>
+                <a ><i class='bx bx-chevron-right' ></i></a>
+                <a ><i class='bx bx-repost'></i></a>
+            </div>
+            <div class="configPlayer">
+                <a ><i class='bx bx-volume-full' ></i></a>
+                <a ><i class='bx bx-fullscreen' ></i></a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script>
+        function alert(){
+            alert("Funcionou!");
+        };
+    </script>
+</body>
+</html>

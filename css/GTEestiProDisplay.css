@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'GTEestiProDisplayLight';  
+    src: local("GTEestiProDisplay-Light.ttf"),
+    url(../font/GTEestiProDisplay-Light.ttf);
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'GTEestiProDisplayItalic';    
+    src: local('GTEestiProDisplay-LightItalic.ttf'),
+    url(../font/GTEestiProDisplay-Light.ttf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'GTEestiProDisplayRegular';
+    src: local('GTEestiProDisplay-regular.ttf'),
+    url(../font/GTEestiProDisplay-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'GTEestiProDisplayMedium';
+    src: local('GTEestiProDisplay-Medium.ttf'),
+    url(../font/GTEestiProDisplay-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'GTEestiProDisplayMediumItalic';
+    src: local('GTEestiProDisplay-MediumItalic.ttf'),
+    url(../font/GTEestiProDisplay-MediumItalic.ttf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'GTEestiProDisplayBold';
+    src: local('GTEestiProDisplay-Bold.ttf'),
+    url(../font/GTEestiProDisplay-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'GTEestiProDisplayBoldItalic';
+    src: local('GTEestiProDisplay-BoldItalic.ttf'),
+    url(../font/GTEestiProDisplay-BoldItalic.ttf);
+    font-weight: 800;
+}
+@font-face {
+    font-family: 'GTEestiProDisplayUltraBold';
+    src: local('GTEestiProDisplay-UltraBold.ttf'),
+    url(../font/GTEestiProDisplay-UltraBold.ttf);
+    font-weight: 900;
+}
