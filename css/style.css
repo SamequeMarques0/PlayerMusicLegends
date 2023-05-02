@@ -136,6 +136,7 @@ nav .userBox .userImage img{
     position: absolute;
     top: 30px; left: 50%;
     transform: translateX(-50%);
+    z-index: 1000;
 }
 #player .controller .BtnPlay{
     background: #200c30;
